@@ -1,0 +1,88 @@
+ /* *{
+	border: 1px solid black;
+} */
+#wrapper{
+	font-family: 'Oxygen', sans-serif;
+	width: 1024px;
+	margin: auto;
+	margin-top: -40px;
+}
+
+
+/* HEADER  */
+
+
+header{
+	position: relative;
+	background-image: url("../images/pilotbgnd.jpg");
+	background-size: 1024px	1000px;	
+	width: 100%;
+	height: 300px;
+}
+h1{
+	font-family: 'Kaushan Script', cursive;
+	font-size: 4em;
+	text-align: center;
+	color: rgba(255, 255, 255, 1);
+	padding-top: 100px;
+}
+nav{
+	font-weight: bold;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	background-color: rgba(177, 141, 101, 0.5);
+	text-align: center;
+}
+li{
+	display: inline;
+}
+a:link, a:visited{
+	text-decoration: none;
+	color: rgba(255, 255, 255, 1);
+	padding: 15px 30px;
+	text-align: center;
+}
+a:hover, a:active{
+	background-color: rgba(254, 178, 92, 0.5);
+}
+
+
+/* SECTION */
+
+
+section{
+	width: 80%;
+	margin: auto;
+	margin-top: 10px;
+}
+.a1{
+	width: 48%;
+	float: left;
+	padding: 10px 16px 0px 0px;
+
+}
+.a2{
+	width: 48%;		
+	float: right;
+	padding: 10px 0px 0px 16px;
+}
+
+
+/* FOOTER */
+
+
+footer{
+	clear: both;	
+    background: rgb(240,166,81); /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  rgba(240,166,81,1) 0%, rgba(71,84,65,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  rgba(240,166,81,1) 0%,rgba(71,84,65,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  rgba(240,166,81,1) 0%,rgba(71,84,65,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0a651', endColorstr='#475441',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+footer p{
+	padding: 7px;
+	margin-left: 15px;
+	color: rgba(255, 255, 255, 1);
+}
