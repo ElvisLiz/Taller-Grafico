@@ -1,0 +1,90 @@
+	#wrapper{
+	max-width: 960px;
+	margin: 0 auto;
+	color: white;
+
+}
+*{
+	box-sizing: border-box;
+}
+nav{
+	max-width: 100%;
+/*	background-color: rgb(223, 190,	171);*/
+	text-align: center;
+	font-size: 1.1em;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 15px; 
+    margin-top: 15px;
+    font-weight: lighter;
+}
+body{
+	/*background: url(../images/fondo.jpg) no-repeat center;*/
+	background-color: rgb(170, 71, 12);
+/*	background-size: cover;*/
+}
+section{
+	max-width: 90%;
+	margin: auto;
+}
+.imgbox{
+	max-width: 32.1111111%;
+	float: left;
+	margin: 2px;
+}
+img{
+	max-width: 100%;
+/*	width: 300px;*/
+	box-shadow: 2px 1px 15px black;
+	-webkit-filter: grayscale(80%);
+	filter: grayscale(80%);
+}
+img:hover{
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
+}
+ul{padding: 15px;
+}
+li{
+	display: inline;
+}
+a{
+	text-decoration: underline;
+	color: white;
+	padding: 40px;
+}
+a:link, a:visited{
+
+}
+a:hover, a:active{
+	text-decoration: none;		
+
+}
+footer{
+	text-align: center;
+	 font-family: 'Quicksand', sans-serif;
+	 font-size: 0.7em;
+	 color:white;
+	 text-transform: uppercase;
+	 margin-top: 5px;
+	 clear: left;
+	 padding: 10px;
+}
+@media screen and (max-width: 800px){
+li{
+	display: block;
+}
+.imgbox{
+	max-width: 47.555555%;
+}
+
+
+}
+@media screen and (max-width: 450px){
+.imgbox{
+	max-width: 95%;
+}
+li{
+	display: block;
+}
+}
