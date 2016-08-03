@@ -1,0 +1,105 @@
+/*#wrapper{
+	width: 960px;
+	max-width: 100%;
+	margin: 0 auto;
+}*/
+body{
+	background: url(../images/bg.jpg) fixed;
+	background-size: cover;
+}
+section{
+	max-width: 100%;
+	margin: auto;
+}
+article{
+	max-width: 100%;
+	margin-bottom: 50px;
+	padding: 20px;
+	-webkit-box-shadow: 1px 1px 20px 1px rgba(0,0,0,1);
+	box-shadow: 1px 1px 20px 1px rgba(0,0,0,1);
+}
+footer{
+	max-width: 100%;
+	clear: both;
+}
+img{
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	display: block;
+	margin: auto;
+	margin-bottom: 20px;
+	border: 6px solid white;
+}
+img:hover{
+    -webkit-filter: brightness(140%); 
+   	filter: brightness(140%);
+   	-webkit-box-shadow: 1px 1px 20px 1px rgba(0,0,0,5);
+	box-shadow: 1px 1px 20px 1px rgba(0,0,0,5);
+    -moz-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+
+}
+p{
+	text-align: center;
+	font-size: 1.5em;	
+	font-family: 'Josefin Slab', serif;
+	color: white;
+}
+h1{
+	text-align: center;	
+	font-size: 3em;	
+	text-transform: uppercase;
+	font-family: 'Bree Serif', serif;
+	margin-bottom: 10px;
+	color: white;
+}
+h2{
+	text-align: center;	
+	font-size: 2em;	
+	text-transform: uppercase;
+	font-family: 'Bree Serif', serif;
+	font-weight: lighter;
+	font-style: italic;
+	color: white;
+}
+header{
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+iframe{
+	width: 560px;
+	max-width: 100%;
+	display: block;
+	margin: auto;
+	margin-top: 50px;
+	border: 1px solid white;
+	box-shadow: 
+}
+#yankees{
+	background-color: rgba(28, 40, 65, 0.5);
+	font-style: italic;
+
+}
+#cubs{
+	background-color: rgba(14, 51, 134, 0.5);
+	font-style: italic;
+
+}
+#oriols{
+	background-color: rgba(244, 99, 42, 0.5);
+	font-style: italic;
+
+}
+#cardinals{
+	background-color:  rgba(196, 30, 58, 0.5);
+	font-style: italic;
+}
