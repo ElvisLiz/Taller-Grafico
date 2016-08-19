@@ -1,0 +1,140 @@
+#wrapper{
+	max-width: 960px;
+	margin:0 auto;
+}
+body{
+	background: #FEFFE1;
+}
+header{
+	max-width: 960px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding: 40px 0px 30px 0px;
+
+}
+#header{
+		background: #6DE394;
+		height: 125px;
+
+
+}
+ul{
+	text-align: center;
+	float: right;
+	margin-right: 250px;
+	margin-top: 20px;
+}
+li{
+	display: inline;
+}
+
+ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	border-bottom-style: solid;
+	color: rgba(255,255, 255, 1);
+	padding: 10px;
+	margin-bottom: 50px;
+	font-weight: bold;
+}
+a:hover{
+	border-bottom-width: 1px;
+border-bottom-color: #ffffff;
+line-height: 5px;
+}
+h2{
+	padding: 300px 0px 0px 30px;
+	font-size: 2.5em;
+	color: #878673;
+}
+p{
+
+	display: inline;
+	font-size: 1em;
+	color: #373737;
+	line-height: 1.7;
+	font-family: 'Roboto', sans-serif;
+}
+#textleft{
+	float: right;
+	font-size: 1em;
+	color: #373737;
+	padding-right: 30px;
+	line-height: 1.7;
+}
+section{
+		max-width: 960px;
+	margin:0 auto;
+	padding-bottom: 80px;
+		background-image: url(../img/fondo1.jpg);
+		background-repeat: no-repeat;
+		background-position: center;	
+
+}
+#section{
+
+	background: rgba(255, 255, 255, 1);
+
+}
+article{
+	clear: both;
+	padding-top: 70px;
+
+}
+
+article img{
+	float: left;
+	padding-top: -30px;
+	margin-right: 40px;
+	line-height: 1.0;
+}
+article p{
+	font-size: 1em;
+	text-align: left;
+		line-height: 1.7;
+}
+#recipes{
+	text-align: center;
+	background: #FEFFE1;
+	margin-top: 50px;
+
+
+}
+#recipes img{
+	max-width: 88%;
+	border-radius: 10px;
+-webkit-box-shadow: 0 4px 20px -8px #000000;
+box-shadow: 0 4px 20px -8px #000000;
+
+}
+#contenedor{
+	max-width: 960px;
+	margin: 0 auto;
+
+}
+#rimg{
+	max-width: 45%;
+	float: left;
+	margin-bottom: 40px;
+
+}
+div img:hover{
+-webkit-filter: saturate(1.3); filter: saturate(1.3);}
+}
+
+#rimg div{
+	    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}	
+h3{
+	font-size: 	3em;
+	font-family: 'Lobster', cursive;
+	padding: 30px;
+}
+
+
+
+@media screen and (600px){
+
+}
