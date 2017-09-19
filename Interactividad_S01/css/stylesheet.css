@@ -1,0 +1,48 @@
+#wrapper{
+	margin: 0 auto;
+	width: 310px;
+}
+figure{
+	width: 286px;
+	height: 210px;
+	position: relative;
+	background-color: #b5b5b5;
+	margin: 5px 0px 5px 0px;
+}
+img{
+	opacity: 0;
+	width: 286px;
+	height: 210px;
+}
+img:hover{
+	opacity: 1;
+}
+h1{
+	font-size: 3.2em;
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+	margin-bottom: 10px;
+}
+p{
+	font-size: 0.9em;
+	font-family: 'Lora', serif;
+	line-height: 1.7;
+}
+figure>div>p{
+	position: absolute;
+	font-size: 1.3em;
+	width: 286px;
+	height: 210px;
+	color: #5b5b5b;
+	top: 70px;
+	left: 115px;
+	opacity: 0;
+	font-family: 'Lora', serif;
+	
+
+}
+figure>div>p:hover{
+	width: 286px;
+	height: 210px;
+	opacity: 1;
+}
