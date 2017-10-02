@@ -1,0 +1,84 @@
+#wrapper{
+	background-color: #000000;
+}
+.row{
+	margin-bottom: 20px;
+}
+#intro{
+	
+	display: flex;
+	text-align: center;
+	height: 1000px;
+	align-items: center;
+	background-image: url(../images/winterfell.jpg);
+	background-position: center;
+	background-size: cover;	
+}
+h1{
+	color: #ffffff;
+	font-family: Northwood High;
+	font-size: 5em;
+}
+h2{
+	color: #ffffff;
+	font-size: 2em;
+	font-weight: lighter;
+	font-family: 'Raleway', sans-serif;
+}
+hr{
+
+	border: 0.02em solid #ffffff;
+	width: 50%;
+
+}
+@font-face {
+	font-family: 'Northwood High';
+	src: url('../fonts/fontNorthwoodHigh.eot');
+	src: url('../fonts/NorthwoodHigh.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/NorthwoodHigh.woff') format('woff'),
+		url('../fonts/NorthwoodHigh.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*final intro */
+
+#housestark{
+	display: flex;
+	text-align: center;
+	height: 1000px;
+	align-items: center;
+	color: #ffffff;
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: lighter;
+	font-size: 1.5em;
+}
+h3{
+	line-height: 140%;
+}
+#housestark .container img{
+	max-width: 50%;
+}
+/*final housestrak */
+#members{
+	display: flex;
+	height: 100%;
+	text-align: center;
+	
+}
+h4{
+	font-size: 2em;
+}
+li{
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 1em;
+}
+.dead{
+	filter: grayscale(100%);
+}
+.dead:hover{
+	filter: grayscale(100%) contrast(130%);
+}
+img:hover {
+	filter: contrast(130%);
+}
