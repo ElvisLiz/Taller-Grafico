@@ -1,0 +1,38 @@
+#main{
+	background-image: url(../img/main.jpg);
+	background-size: cover;
+	height: 350px;
+	color: #ffffff;
+	padding: 50px;
+	margin-bottom: 10px;
+}
+.container{
+	text-align: center;
+}
+h1{
+	font-size: 5em;
+	font-family: 'Anton', sans-serif;
+}
+h2{
+	font-size: 1.5em;
+}
+#second{
+	background-image: url(../img/second.png);
+	background-size: cover;
+	padding: 30px;
+	height: 250px;
+	color: #ffffff;
+
+}
+h3{
+	font-size: 0.9em;
+}
+a{
+	color: #ffffff;
+}
+#footer{
+	padding: 3px;
+}
+p{
+	font-size: 0.8em;
+}
